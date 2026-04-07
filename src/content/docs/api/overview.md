@@ -2,7 +2,8 @@
 
 title: API Overview
 description: Overview of the Movies API.
-----------------------------------------
+
+---
 
 ## Base URL
 
@@ -12,7 +13,7 @@ After starting the development server, the base URL for requesting the API endpo
 ```
 http://localhost:3000/api/movies
 ```
-In other words, it will be your `local host (127.0.0.1)` running on `port 3000`. All your HTTP request messages will done made against this URL.
+In other words, it will be your `local host (127.0.0.1)` running on port 3000. All your HTTP request messages will done made against this URL.
 
 ---
 
