@@ -7,7 +7,7 @@ description: Overview of the Movies API.
 
 ## Base URL
 
-After starting the development server, the base URL for requesting the API endpoints will most likely the following:
+After starting the development server, the base URL for requesting API endpoints will be the following:
 
 
 ```
