@@ -1,49 +1,80 @@
-# Starlight Starter Kit: Basics
+# Movies REST API Documentation
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This repository contains the official documentation site for the **Movies REST API**, built using the Astro Starlight framework.
 
-```
-npm create astro@latest -- --template starlight
-```
+The documentation provides a clear and structured guide on how to set up, run, and interact with the API, including detailed explanations of endpoints, features, and system architecture.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 🚀 Live Documentation
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Once deployed, the documentation can be accessed via:
 
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+http://localhost:4321/
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Screenshot:  
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-Static assets, like favicons, can be placed in the `public/` directory.
+![Movies API Screenshot](/screenshots/main_page.png)
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## 📦 About the API
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+The Movies REST API is a lightweight backend service built with Node.js and Express.js that supports:
 
-## 👀 Want to learn more?
+- CRUD operations for movie metadata  
+- Filtering and search  
+- Pagination  
+- Validation using Joi  
+- Interactive testing via Swagger UI  
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+👉 API Repository:  
+https://github.com/NelMatrix743/nodejs-movies-rest-api
+
+---
+
+## 🛠️ Running the Docs Locally
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/content/docs/
+```
+
+Contains all documentation pages written in Markdown/MDX.
+
+---
+
+## 🧠 Tech Stack
+
+- Astro  
+- Starlight (documentation framework)  
+- Markdown / MDX  
+
+---
+
+## 📌 Notes
+
+- This repository only contains documentation  
+- The actual API implementation is hosted separately  
+
+---
+
+# 📚 Happy reading!
