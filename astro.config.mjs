@@ -17,6 +17,12 @@ export default defineConfig({
 					],
 				},
 				{
+					label: "Internals",
+					items: [
+					{ label: "Architecture", link: "/architecture" },
+					],
+				},
+				{
 					label: "API",
 					items: [
 					{ label: "Overview", link: "/api/overview" },
