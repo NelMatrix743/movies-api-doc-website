@@ -6,8 +6,8 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Movies API Documentation',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/NelMatrix743/nodejs-movies-rest-api' }],
 			sidebar: [
 				{
 					label: 'Guides',
