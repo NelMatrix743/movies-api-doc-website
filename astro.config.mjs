@@ -26,8 +26,8 @@ export default defineConfig({
 				{
 					label: "How-To",
 					items: [
-					{ label: "Filtering", link: "/guides/filtering" },
-					{ label: "Pagination", link: "/guides/pagination" },
+					{ label: "Filtering", link: "/how-to/filtering" },
+					{ label: "Pagination", link: "/how-to/pagination" },
 					],
 				},
 			],
