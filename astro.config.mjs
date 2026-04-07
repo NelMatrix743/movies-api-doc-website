@@ -6,21 +6,33 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Movies API Documentation',
+			title: '🎬 Movies API Docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/NelMatrix743/nodejs-movies-rest-api' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: "Guide",
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+					{ label: "Home", link: "/" },
+					{ label: "Getting Started", link: "/getting-started" },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: "API",
+					items: [
+					{ label: "Overview", link: "/api/overview" },
+					{ label: "Movies", link: "/api/movies" },
+					],
+				},
+				{
+					label: "Guides",
+					items: [
+					{ label: "Filtering", link: "/guides/filtering" },
+					{ label: "Pagination", link: "/guides/pagination" },
+					],
 				},
 			],
+			// tableOfContents: false,
 		}),
 	],
 });
+
